@@ -1,0 +1,7 @@
+name: ClientModChecker
+version: '${version}'
+main: io.github.gum4.clientmodchecker.ClientModChecker
+api-version: 1.19
+prefix: ClientModChecker
+authors: [9um4]
+description: Check Client's mod
