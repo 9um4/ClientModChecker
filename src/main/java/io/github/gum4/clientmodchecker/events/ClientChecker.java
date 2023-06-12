@@ -10,7 +10,6 @@ public class ClientChecker implements Listener {
     @EventHandler
     public void onJoin(PlayerJoinEvent event){
         Player player = event.getPlayer();
-
         String clientBrandName = player.getClientBrandName();
         if (!clientBrandName.equalsIgnoreCase("vanilla")){
             player.kick(
